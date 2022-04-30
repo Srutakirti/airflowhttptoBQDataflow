@@ -1,0 +1,11 @@
+import gzip
+c=0
+with gzip.open("2022-4-19-2","rb") as f:
+    with open("tofile.csv","w") as o:
+
+        for line in f:
+            c+=1
+            o.write(line.decode("utf-8"))
+            if c==100000:
+                break
+
