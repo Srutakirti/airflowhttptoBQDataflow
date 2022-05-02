@@ -1,5 +1,5 @@
 # airflowhttptoBQDataflow
-![plot](BQdatascreenshot.PNG)
+![alt text](BQdatascreenshot.PNG)
 
 ## Whats this project about?
 This project uses Composer/Airflow to implement the following workflow:
