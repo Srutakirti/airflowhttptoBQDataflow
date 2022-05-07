@@ -1,5 +1,7 @@
 # airflowhttptoBQDataflow
-![alt text](BQdatascreenshot.PNG)
+
+## Arch
+![alt text](AirflowDataflowBQ.jpg)
 
 ## Whats this project about?
 This project uses Composer/Airflow to implement the following workflow:
@@ -21,4 +23,13 @@ This process uses a apache beam custom template to process the data and add the 
 
 ### Loading the Data ot DataSink
 
-The data is dumped into Datalake on hourly basis using the beam batch job,
+The data is dumped into Datalake on hourly basis using the beam batch job.
+
+
+### data sample
+
+#### BQ
+![alt text](BQdatascreenshot.JPG)
+
+#### CSV samples
+![alt text](csvdatagcs.JPG)
